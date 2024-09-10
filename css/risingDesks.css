@@ -32,7 +32,7 @@
 
 .item-card-image {
     margin-top: 10px;
-    height: 300px;
+    height: 250px;
     overflow: hidden;
   }
   
@@ -52,14 +52,14 @@
 
 .item-card-details h2 {
     color: var(--black-color);
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: bold;
     position: relative;
 }
 
 .item-card-details h4 {
     color: var(--black-color);
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bold;
     position: relative;
     margin-top: 20px;
@@ -67,15 +67,16 @@
 
   
 .item-card-details span {
+    font-size: 0.7rem;
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 20px;
     color: black;
 }
 
 .cart-btn {
     margin-top: 20px;
-    padding: 15px 0;
+    padding: 12px 0;
     color: white;
     background-color: var(--price-yellow);
     border: none;
