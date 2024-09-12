@@ -93,7 +93,7 @@ main {
   padding: 12px;
   display: flex;
   flex-direction: row;
-  overflow: hidden  ;
+  overflow: hidden;
 }
 
 .btn {

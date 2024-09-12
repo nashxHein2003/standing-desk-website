@@ -1,0 +1,57 @@
+.contact-input,
+.contact-featured {
+    flex: 1;
+}
+
+.contact-featured {
+    display: grid;
+    place-items: end;
+}
+
+.contact-featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-input {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.input {
+    padding: 10px;
+    width: 70%;
+}
+.input:focus {
+    border: 2px solid var(--theme-color);
+    outline: none;
+}
+
+.contact-input textarea {
+    padding: 10px;
+    width: 70%;
+}
+
+.contact-input textarea:focus {
+    border: 1px solid var(--theme-color);
+    outline: none;
+}
+
+.input, 
+.contact-input textarea {
+    margin-bottom: 20px;
+} 
+
+.contact-button {
+    width: 100%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 600px;
+}
