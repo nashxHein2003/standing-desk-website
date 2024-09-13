@@ -53,7 +53,16 @@
 }
 
 .login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-right: 40px;
+}
+
+.login img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
 
 .login a {
