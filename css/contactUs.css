@@ -55,3 +55,59 @@
     width: 100%;
     height: 600px;
 }
+
+@media (max-width: 768px) {
+    .contact-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-input,
+    .contact-featured {
+        width: 100%;
+        max-width: 100%;
+        flex: 1;
+    }
+
+    .input,
+    .contact-input textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-btn {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .map-container iframe {
+        height: 400px;
+    }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .contact-input,
+    .contact-featured {
+        padding: 10px;
+    }
+
+    .input,
+    .contact-input textarea {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+    .contact-btn {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
